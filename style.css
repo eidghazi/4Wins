@@ -1,0 +1,192 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #7945ff;
+  font-family: 'Poppins' , sans-serif;
+}
+
+
+.logo{
+  display: flex;
+  margin: 1.3rem auto ;
+}
+
+.restart{
+  display: block;
+  margin: -3.5rem 30rem;
+  margin-bottom: 0;
+  text-align: center;
+  border: none;
+  background-color: #5c2cd6;
+  border-radius: 5rem;
+  color: #ffffff;
+  font-weight: 600;
+  width: 5rem;
+  height: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.big-Section{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  
+}
+
+.player{
+  width: 7rem;
+  height: 9.5rem;
+  margin: 0rem 2.5rem;
+  background-color: white;
+  margin-top: 7rem;
+  border: 2px solid  black;
+  border-bottom: 10px solid;
+  border-radius: 1.3rem;
+  text-align: center;
+  padding-top: 2rem;
+  
+}
+
+.player-num{
+  text-transform: uppercase;
+  font-weight:600;
+}
+
+.score{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.haikel{
+  margin-top: -1rem;
+  width: 40rem;
+  height: 32rem;
+  background-color:white ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 3px solid;
+  border-radius: 2rem;
+  border-bottom: 15px solid;
+  padding-bottom: 2rem;
+}
+
+.cir{
+  width: 4rem;
+  height: 4rem;
+  background-color: #7945ff;
+  border-radius: 50%;
+  border: 3px solid;
+  border-top: 12px solid;
+  place-self: center;
+}
+
+.timer-container {
+  width: 150px;
+  height: 120px;
+  background-color: #FF6D85;
+  position: relative;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-radius: 20px;
+  box-shadow: 0 8px 0px #2e0372;
+  border: 3px solid black;
+  top: -2rem;
+  left: 36.8rem;
+}
+
+.timer-content{
+  position: relative;
+  background-color: #FF6D85;
+  padding: 10px;
+  z-index: 1;
+  border-radius: 15px 15px 0 0;
+}
+
+
+
+.player-turn {
+  margin-top: 1rem;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.timer {
+  color: white;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.nextRound{
+  position: absolute;
+  top: 57.22%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #FF6D85;
+  background-color: white;
+  width: 39.7rem;
+  height: 31.7rem;
+  border-radius: 2rem;
+}
+
+.playerWin{
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.nextR{
+  text-align: center;
+  margin-left: 39%;
+  margin-bottom: 1rem;
+  color:#ffffff ;
+  background-color:  #f47777;;
+  border: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.nextR:hover {
+  background-color: #7b47c7; 
+}
+
+.playerNames{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+  
+}
+
+.pn{
+  color: #f47777;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 5rem;
+}
+
+.name{
+  text-align: center;
+  width: 25rem;
+  height: 5rem;
+  font-size: 2rem;
+  color: #5c2cd6;
+}
+
+.hide{
+  display: none;
+}

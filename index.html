@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>4Wins</title>
+</head>
+<body>
+
+  <section class="playerNames">
+    <p class="pn">Player 1 name:</p>
+    <input class="name firstName" type="text" placeholder="name">
+    <p class="pn">Player 2 name:</p>
+    <input class="name secondName" type="text" placeholder="name">
+  </section>
+
+  <section class="Eth hide">
+  <div class="top">
+    <img class="logo" src="logo.PNG" alt="">
+    <button class="restart">Restart</button>
+  </div>
+
+  <section class="big-Section">
+
+    <div class="player">
+      <p class="player-num player11">Player 1</p>
+      <p class="score"><span class="p1Score">0</span></p>
+    </div>
+  
+  
+    <section class="haikel">
+      <div class="cir a1" onclick="changeC(event)"></div>
+      <div class="cir b1" onclick="changeC(event)"></div>
+      <div class="cir c1" onclick="changeC(event)"></div>
+      <div class="cir d1" onclick="changeC(event)"></div>
+      <div class="cir e1" onclick="changeC(event)"></div>
+      <div class="cir f1" onclick="changeC(event)"></div>
+      <div class="cir g1" onclick="changeC(event)"></div>
+
+      <div class="cir a2" onclick="changeC(event)"></div>
+      <div class="cir b2" onclick="changeC(event)"></div>
+      <div class="cir c2" onclick="changeC(event)"></div>
+      <div class="cir d2" onclick="changeC(event)"></div>
+      <div class="cir e2" onclick="changeC(event)"></div>
+      <div class="cir f2" onclick="changeC(event)"></div>
+      <div class="cir g2" onclick="changeC(event)"></div>
+
+      <div class="cir a3" onclick="changeC(event)"></div>
+      <div class="cir b3" onclick="changeC(event)"></div>
+      <div class="cir c3" onclick="changeC(event)"></div>
+      <div class="cir d3" onclick="changeC(event)"></div>
+      <div class="cir e3" onclick="changeC(event)"></div>
+      <div class="cir f3" onclick="changeC(event)"></div>
+      <div class="cir g3" onclick="changeC(event)"></div>
+
+      <div class="cir a4" onclick="changeC(event)"></div>
+      <div class="cir b4" onclick="changeC(event)"></div>
+      <div class="cir c4" onclick="changeC(event)"></div>
+      <div class="cir d4" onclick="changeC(event)"></div>
+      <div class="cir e4" onclick="changeC(event)"></div>
+      <div class="cir f4" onclick="changeC(event)"></div>
+      <div class="cir g4" onclick="changeC(event)"></div>
+
+      <div class="cir a5" onclick="changeC(event)"></div>
+      <div class="cir b5" onclick="changeC(event)"></div>
+      <div class="cir c5" onclick="changeC(event)"></div>
+      <div class="cir d5" onclick="changeC(event)"></div>
+      <div class="cir e5" onclick="changeC(event)"></div>
+      <div class="cir f5" onclick="changeC(event)"></div>
+      <div class="cir g5" onclick="changeC(event)"></div>
+
+      <div class="cir a6" onclick="changeC(event)"></div>
+      <div class="cir b6" onclick="changeC(event)"></div>
+      <div class="cir c6" onclick="changeC(event)"></div>
+      <div class="cir d6" onclick="changeC(event)"></div>
+      <div class="cir e6" onclick="changeC(event)"></div>
+      <div class="cir f6" onclick="changeC(event)"></div>
+      <div class="cir g6" onclick="changeC(event)"></div>
+    </section>
+  
+
+    <div class="player">
+      <p class="player-num player22">Player 2</p>
+      <p class="score"><span class="p2Score">0</span></p>
+    </div>
+
+  </section>
+
+
+  <div class="downStyle"></div>
+
+  <div class="timer-container">
+    <div class="triangle-up"></div>
+    <div class="timer-content">
+        <div class="player-turn">PLAYER 1'S TURN</div>
+        <div class="timer"><span class="tiemNextP">15s</span></div>
+    </div>
+</div>
+
+<div class="nextRound hide">
+  <p class="playerWin">Player 2 win</p>
+  <button class="nextR">Next round</button>
+</div>
+
+</section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
